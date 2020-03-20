@@ -10,24 +10,22 @@ import React from 'react'
     
      
     
-    <form className="form-horizontal"  name="fxcontact" action="POST" data-netlify="true">
-       
-      <div className="form-group col-sm-12">
-        
-          <input type="text"  className="form-control"  placeholder="NAME" name="name" />
-        
+    <form className="form-horizontal"   name="fxcontact" action="POST" data-netlify="true">
+      
+       <div className="form-group col-sm-12">
+         
+     <input type="text" className="form-control" id="name" placeholder="NAME" name="name"  />
+          
       </div>
 
       <div className="form-group col-sm-12">
         
-          <input type="email" className="form-control"  placeholder="EMAIL" name="email" />
-        
+          <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email"  />
+      
       </div>
 
       <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
-      <div data-netlify-recaptcha="true">
-
-      </div>
+      <div data-netlify-recaptcha="true"></div>
       <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
         <div className="button">
           <i className="fa fa-paper-plane"></i><span className="send-text">SEND</span>
