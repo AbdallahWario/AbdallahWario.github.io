@@ -12,16 +12,16 @@ import React from 'react'
     
     <form className="form-horizontal"  name="fxcontact" action="POST" data-netlify="true">
        
-      <div className="form-group">
-        <div className="col-sm-12">
+      <div className="form-group col-sm-12">
+        
           <input type="text" className="form-control" id="name" placeholder="NAME" name="name" value=""/>
-        </div>
+        
       </div>
 
-      <div className="form-group">
-        <div className="col-sm-12">
+      <div className="form-group col-sm-12">
+        
           <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email" value=""/>
-        </div>
+        
       </div>
 
       <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
