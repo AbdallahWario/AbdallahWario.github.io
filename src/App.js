@@ -22,6 +22,7 @@ function App() {
       
 
        <Route exact   path='/home/' component ={Home} />
+       <Route exact   path='/' component ={Home} />
        <Route exact  path='/FAQ/' component ={FAQ} />
        <Route exact  path='/pack/' component ={Pack} />
        <Route exact  path='/Contact/' component ={Contact} />
