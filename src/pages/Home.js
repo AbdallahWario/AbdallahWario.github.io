@@ -60,7 +60,9 @@ export default function Home() {
 
             </section>
    </div>
-   
+   <div className="footersec"> 
+          
+        </div>
    
 
         </>
