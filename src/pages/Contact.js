@@ -26,7 +26,7 @@ import React from 'react'
 
       <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
       <div data-netlify-recaptcha="true"></div>
-      <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+      <button className="btn btn-primary send-button" id="submit" type="submit" >
         <div className="button">
           <i className="fa fa-paper-plane"></i><span className="send-text">SEND</span>
         </div>
