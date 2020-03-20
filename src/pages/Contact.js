@@ -14,13 +14,13 @@ import React from 'react'
        
       <div className="form-group col-sm-12">
         
-          <input type="text" type="hidden" className="form-control"  placeholder="NAME" name="name" value=""/>
+          <input type="text" type="hidden" className="form-control"  placeholder="NAME" name="name" />
         
       </div>
 
       <div className="form-group col-sm-12">
         
-          <input type="email" type="hidden" className="form-control"  placeholder="EMAIL" name="email" value=""/>
+          <input type="email" type="hidden" className="form-control"  placeholder="EMAIL" name="email" />
         
       </div>
 
