@@ -10,7 +10,7 @@ import React from 'react'
     
      
     
-    <form className="form-horizontal"   action="POST" data-netlify="true">
+    <form className="form-horizontal"  name="fxcontact" action="POST" data-netlify="true">
        
       <div className="form-group">
         <div className="col-sm-12">
